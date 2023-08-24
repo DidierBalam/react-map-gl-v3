@@ -127,7 +127,7 @@ const Map = forwardRef<MapRef, MapProps>((props, ref) => {
         if (props.reuseMaps) {
           mapbox.recycle();
         } else {
-          mapbox.destroy();
+          // mapbox.destroy();
         }
       }
     };
