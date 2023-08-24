@@ -113,7 +113,7 @@ export default function Map<
         if (props.reuseMaps) {
           mapbox.recycle();
         } else {
-          mapbox.destroy();
+          // mapbox.destroy();
         }
       }
     };
